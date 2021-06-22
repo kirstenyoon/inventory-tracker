@@ -1,5 +1,5 @@
 {
-	"name": "expense-tracker",
+	"name": "inventory-tracker",
 	"version": "0.1.0",
 	"description": "Budget by tracking expenses",
 	"main": "index.js",
