@@ -8,6 +8,7 @@ const Add = (props) => (
 		Add
 	</button>
 );
+
 const Delete = (props) => (
 	<button
 		id="decrementCount"

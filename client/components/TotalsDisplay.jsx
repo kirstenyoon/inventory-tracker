@@ -6,7 +6,7 @@ const TotalsDisplay = (props) => {
 			<label htmlFor="totalInventory">Item Types: </label>
 			<span id="totalInventory">{props.totalInventory}</span>
 			<p>
-				<label htmlFor="totalItems">Total Items: </label>
+				<label htmlFor="totalItems">Number of Items: </label>
 				<span id="totalItems">{props.totalItems}</span>
 			</p>
 		</div>

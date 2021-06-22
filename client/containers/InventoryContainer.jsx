@@ -29,7 +29,6 @@ class InventoryContainer extends Component {
 	render() {
 		return (
 			<div className="innerbox">
-				{/* add addNewItem and addItem property to ItemInput */}
 				<ItemInput
 					addNewItem={this.props.addNewItem}
 					addItem={this.props.addItem}

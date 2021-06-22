@@ -16,9 +16,6 @@ const useStyles = makeStyles({
 	},
 });
 
-function createData(itemName, quantity, percentageOfTotal) {
-	return { itemName, quantity, percentageOfTotal };
-}
 export default function ItemsDisplay(props) {
 	const classes = useStyles();
 
