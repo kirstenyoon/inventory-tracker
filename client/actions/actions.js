@@ -5,6 +5,11 @@ export const incrementCount = (itemId) => ({
 	payload: itemId,
 });
 
+export const decrementCount = (itemId) => ({
+	type: types.DECREMENT_COUNT,
+	payload: itemId,
+});
+
 export const addNewItem = (newItem) => {
 	return { type: types.ADD_NEW_ITEM, payload: newItem };
 };
